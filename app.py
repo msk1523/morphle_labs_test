@@ -48,7 +48,7 @@ def get_top_info():
     process_table = "\n".join(process_lines)
 
     output = f"""
-Name: Your Full Name  
+Name: Sivakumaran Manivaannan 
 user: {os.getenv('USER', 'N/A')}
 Server Time (IST): {datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=5, minutes=30))).strftime('%Y-%m-%d %H:%M:%S.%f')}
 TOP output:
